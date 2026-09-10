@@ -1,4 +1,4 @@
-package plat.lab5
+package plat.lab6
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

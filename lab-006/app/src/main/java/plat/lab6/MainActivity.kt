@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import plat.lab1.lab6.ui.theme.Lab5Theme
-import plat.lab5.Screen
+import plat.lab1.lab6.ui.theme.Lab6Theme
+import plat.lab6.Screen
 
 class MainActivity : ComponentActivity() {
 
@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            Lab5Theme {
+            Lab6Theme {
                 Screen()
             }
         }
@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 )
 @Composable
 fun RestaurantScreenLightPreview() {
-    Lab5Theme(
+    Lab6Theme(
         darkTheme = false,
         dynamicColor = false
     ) {
@@ -44,7 +44,7 @@ fun RestaurantScreenLightPreview() {
 )
 @Composable
 fun RestaurantScreenDarkPreview() {
-    Lab5Theme(
+    Lab6Theme(
         darkTheme = true,
         dynamicColor = false
     ) {
